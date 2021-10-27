@@ -15,7 +15,7 @@ Fondamentalmente la pagina è divisa in due:
 - Una sezione a scelta, che si comporta in modo dinamico (qui siate creativi voi sul comportamento da assegnarle)
 
 - Infine scrivete una funzione che, al click, in qualunque posto della pagina, faccia il `console.log` del numero
-  di elementi paragrafo (<p>) utilizzati.
+  di elementi paragrafo '<p>' utilizzati.
 
 Esercizio AVANZATO!!
 

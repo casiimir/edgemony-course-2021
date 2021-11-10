@@ -1,5 +1,5 @@
 1. Sulla base della lezione di oggi, completare la modale (date un aspetto più carino anche), rispettando i seguenti punti:
-   l'elemento <h1>Buongiorno [NOME]</h1> dovrà essere gestito totalemente in Javascript quindi
+   l'elemento `<h1>Buongiorno [NOME]</h1>` dovrà essere gestito totalemente in Javascript quindi
    `userPage.firstElementChild.textContent = 'Buongiorno ${username}';`
    non dovrà contenere la parola 'Buongiorno' (quindi il Buongiorno lo prende solo da HTML non va aggiunto in JS!)
 

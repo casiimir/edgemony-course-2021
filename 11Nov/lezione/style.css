@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@400;700&family=Press+Start+2P&display=swap");
+:root {
+  --main_color: #1396ab;
+}
+
+body {
+  font-family: "Mohave", sans-serif;
+}
+
+h4 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: var(--main_color);
+}
+
+img {
+  width: 90px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.cart {
+  text-align: right;
+  width: 80px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper__titles {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper__titles h2 {
+  font-size: 2rem;
+}
+
+.wrapper__titles h4 {
+  font-size: 0.9rem;
+}
+
+.wrapper__products {
+  margin: 0 40px;
+  height: 38vh;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7.5px;
+  padding: 10px;
+
+  min-width: 150px;
+
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 12px;
+
+  opacity: 0.78;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.product:hover {
+  transform: scale(0.9);
+  border: 2px solid var(--main_color);
+}
+
+.product:active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.product p {
+  align-self: flex-start;
+}

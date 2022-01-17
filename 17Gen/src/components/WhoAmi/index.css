@@ -1,0 +1,53 @@
+.carousel {
+  overflow: hidden;
+  margin: 0 50px;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  position: relative;
+  margin-top: 100px;
+  width: 1000px;
+}
+
+.wrapper p {
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.carousel__buttons {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: -80px;
+  left: 0px;
+  border: 0;
+  padding: 20px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.btn:nth-of-type(2) {
+  left: calc(100vw - 50px);
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    overflow-x: scroll;
+  }
+
+  .carousel::after {
+    content: "-->";
+    position: absolute;
+    top: 50vh;
+    right: 0;
+  }
+
+  .carousel__buttons {
+    display: none;
+  }
+}

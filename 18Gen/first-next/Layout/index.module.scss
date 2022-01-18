@@ -1,0 +1,32 @@
+.nav {
+  position: relative;
+  width: 100vw;
+  height: 70px;
+  background-color: lightcoral;
+  z-index: 1;
+
+  ul {
+    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+
+    li {
+      a {
+        margin-right: 15px;
+        border: 1px solid;
+      }
+    }
+  }
+}
+
+.content {
+  height: 80vh;
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 70px;
+  background-color: lightcoral;
+  z-index: 1;
+}

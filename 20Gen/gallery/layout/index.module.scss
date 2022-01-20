@@ -1,0 +1,34 @@
+@import "../styles/mixins.scss";
+
+.nav {
+  height: 60px;
+  border: 2px solid;
+
+  ul {
+    @include flexContent();
+    list-style-type: none;
+
+    li {
+      padding: 5px 20px;
+      border-radius: 6px;
+    }
+  }
+}
+
+.children {
+  margin: 50px 0;
+  height: calc(100vh - 220px);
+}
+
+.footer {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid;
+  z-index: 1;
+}
+
+.activeBtn {
+  background-color: lightgray;
+}

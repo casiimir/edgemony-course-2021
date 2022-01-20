@@ -1,0 +1,16 @@
+@import "./mixins.scss";
+
+.wrapper {
+  @include flexContent();
+
+  .img {
+    border-radius: 6px !important;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.297);
+    cursor: pointer;
+    transition: 0.35s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
